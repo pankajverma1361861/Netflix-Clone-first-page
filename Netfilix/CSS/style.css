@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navigation-bar {
+    display: flex;
+    margin: 2rem 20px;
+    z-index: 1;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* netflix logo */
+
+.logo {
+    /* margin-left: 2rem; */
+    margin-right: 45rem;
+}
+
+.logo img {
+    width: 8.375rem;
+    height: 2.25rem;
+}
+
+
+/* Button btn */
+
+.btn {
+    display: flex;
+    /* flex-direction: row; */
+    /* margin-left: 11rem; */
+    /* width: 20px; */
+    /* gap: 2.5em; */
+}
+
+
+/* language btn */
+
+.drop-down-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    ;
+    color: white;
+}
+
+.language__drop__down {
+    border: none;
+    background-color: transparent;
+    ;
+    color: white;
+}
+
+.language__drop__down option {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* Sing in button */
+
+.sign {
+    border: none;
+    width: 6rem;
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 5rem;
+}
+
+.sign p {
+    width: 6rem;
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+/* background image */
+
+.top-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(/Image/img/bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    /* z-index: 5; */
+}
+
+.bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* black color effect */
+
+.top-item::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    background: radial-gradient(ellipse at center, #363636, #000000) no-repeat center center/cover;
+    opacity: 0.75;
+}
+
+
+/* main card email button and heading */
+
+.main-card {
+    color: white;
+    margin: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.main-card h1 {
+    margin: 0px 15rem;
+    text-align: center;
+}
+
+.main-card h3 {
+    font-weight: 500;
+    margin: 1.5rem 0;
+    font-size: 25px;
+}
+
+#main-para {
+    font-size: 1.2rem;
+    margin: 1.4rem 0;
+}
+
+
+/**/
+
+
+/* input {
+    width: 39vw;
+    height: 6vh;
+    font-size: 1.5rem;
+    margin-left: -5rem;
+    padding: .3rem 1rem;
+    outline: none;
+}
+
+form button {
+    outline: none;
+    border: none;
+    height: 2rem;
+    padding: 0.7rem 2rem 2.29rem 2rem;
+    background-color: red;
+    margin-left: -0.6rem;
+}
+
+form button span {
+    margin-bottom: 2px;
+    font-size: large;
+    color: white;
+}
+
+.email-box span::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 3.6vh;
+    background: url("/Image/img/seta.svg") no-repeat;
+    margin-left: 20px;
+} */
+
+
+/* Card layouts content border buttom */
+
+.top-item {
+    border-bottom: 10px solid #222;
+}
+
+
+/* Card layouts */
+
+.cards-layout {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 3rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid #222;
+    justify-items: center;
+}
+
+.card-text h1 {
+    font-size: 3rem;
+    margin: .75em 0 .25em;
+}
+
+.card-text p {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: .75em 0 .25em;
+}
+
+
+/* Card 1 tv image and video effect */
+
+.image-tv {
+    position: relative;
+}
+
+.image-tv img {
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+}
+
+.tv-video {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.tv-video video {
+    width: 25.9rem;
+    height: 15.5rem;
+    object-fit: cover;
+}
+
+.animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* card 2 phine image */
+
+#phone-image {
+    width: 95%;
+    margin-left: -6rem;
+}
+
+.download-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(46, 45, 45);
+    background-color: black;
+    width: 17.5rem;
+    margin: -7.8rem 0 0 0rem;
+    position: relative;
+    border-radius: 9px;
+    padding: 0.9rem 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-container img {
+    width: 3rem;
+}
+
+.item p {
+    margin-bottom: 5px;
+}
+
+.item span {
+    color: blue;
+}
+
+
+/* card 3 video width and height set */
+
+.tv-video-card-3 {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.tv-video-card-3 video {
+    width: 22.9rem;
+    height: 12.5rem;
+    margin-bottom: 11rem;
+    object-fit: cover;
+}
+
+.card-3-content {
+    margin: 0 0.75rem;
+}
+
+
+/* card 4 child card */
+
+.child-image {
+    width: fit-content;
+}
+
+.card-child-content {
+    margin: 0 0.75rem;
+}
+
+.container {
+    align-items: center;
+}
+
+
+/* Quistion conatiner layout */
+
+.qustion-container {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid #222;
+}
+
+
+/* question container top heading */
+
+.main-heading {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+
+/* questions  */
+
+.question-title {
+    width: 65vw;
+    background: #222;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0.9rem 1.7rem;
+    margin: 6px 0;
+}
+
+.question-title h1 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.question-btn {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.plus {
+    color: white;
+    font-size: 32px;
+}
+
+
+/* answer of question */
+
+.question-text {
+    width: 65vw;
+    background: #222;
+    padding: 0.9rem 1.7rem;
+    margin: 2px 0;
+    display: none;
+}
+
+.question-text p {
+    font-size: 1.8rem;
+}
+
+
+/* Show answer */
+
+.showcase {
+    display: block;
+}
+
+
+/* Button transform rotate */
+
+.rotate {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+
+/* start Email box and button */
+
+.email-conatiner {
+    display: flex;
+}
+
+.email-conatiner input {
+    width: 36vw;
+    outline: none;
+    height: 8vh;
+    padding: 0.5rem 2rem;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    border-bottom: 4px solid gold;
+}
+
+.email-button {
+    background: rgb(212, 1, 1);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+}
+
+.email-button img {
+    margin-left: 7px;
+}
+
+.email-button p {
+    font-size: 1.5rem;
+}
+
+.email-button:hover {
+    background: red;
+    cursor: pointer;
+}
+
+
+/* End Email box and button */
+
+.befor-email-heading {
+    font-size: large;
+    margin: 2rem 0;
+}
+
+
+/* Footer css */
+
+footer {
+    background: black;
+    color: #6E7575;
+    padding: 2rem 4rem 0 4rem;
+}
+
+footer h5,
+span {
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+}
+
+.lists {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.lists ul {
+    margin: 1rem 0 1rem 4rem;
+}
+
+.lists ul li {
+    list-style: none;
+    padding: 0.25rem 0.7rem;
+}
+
+.lists ul li a {
+    text-decoration: none;
+    color: #6E7575;
+}
+
+.lists ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-btn {
+    border: 2px solid #6E7575;
+    width: fit-content;
+    padding: 0.75rem 1rem;
+    margin-left: 4.5rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.language__drop__down-footer {
+    border: none;
+    background-color: transparent;
+    ;
+    color: #6E7575;
+}
