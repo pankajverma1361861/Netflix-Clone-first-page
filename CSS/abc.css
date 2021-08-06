@@ -1,0 +1,194 @@
+    @media only screen and (min-width: 1000px) and (max-width: 1301px) {
+    .logo {
+        margin-right: 32rem;
+    }
+    .top-item::before {
+        height: 66%;
+    }
+    .top-item::after {
+        height: 66%;
+    }
+    .main-card {
+        margin-top: 18vh;
+    }
+    .main-card h1 {
+        margin: 0px 5rem;
+    }
+    .email-conatiner input {
+        height: 4vh;
+        padding: 0.5rem 2rem;
+    }
+    #cardone {
+        padding-top: 9vh;
+    }
+    .tv-video-card-3 video {
+        width: 17.9rem;
+        height: 9.5rem;
+        margin-bottom: 7rem;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1000px) {
+    .logo {
+        margin-right: 14rem;
+    }
+    .main-card h1 {
+        margin: 0px 3rem;
+        text-align: center;
+    }
+    .main-card h1 {
+        margin: 0px 5rem;
+    }
+    .email-conatiner input {
+        height: 4vh;
+        padding: 0.5rem 2rem;
+    }
+    .top-item::before {
+        height: 66%;
+    }
+    .top-item::after {
+        height: 66%;
+    }
+    /* Card layouts */
+    .card-text h1 {
+        font-size: 2rem;
+        margin: .75em 0 .25em;
+    }
+    .card-text p {
+        font-size: 1.25rem;
+    }
+    /* Card 1 tv image and video effect */
+    .tv-video video {
+        width: 16.9rem;
+        height: 8.5rem;
+        object-fit: cover;
+    }
+    /* card 2 phine image */
+    .download-container {
+        width: 12.5rem;
+    }
+    /* card 3 video width and height set */
+    .tv-video-card-3 video {
+        width: 11.9rem;
+        height: 8.5rem;
+        margin-bottom: 4rem;
+        object-fit: cover;
+    }
+    /* card 4 video width and height set */
+    .child-image {
+        width: 37vh;
+    }
+}
+
+@media only screen and (max-width:523px) {
+    .navigation-bar {
+        display: flex;
+        margin: 1rem 14px;
+        z-index: 1;
+        justify-content: space-around;
+        position: relative;
+        z-index: 1;
+        flex-direction: row;
+    }
+    .logo {
+        /* margin-left: 2rem; */
+        margin-right: 1rem;
+    }
+    .logo img {
+        width: 4.375rem;
+        height: 1.25rem;
+    }
+    .main-card h1 {
+        margin: 2px -3rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #main-para {
+        font-size: 0.8rem;
+        margin: 1rem;
+    }
+    .main-card h3 {
+        font-weight: 500;
+        margin: 0.5rem 0;
+        font-size: 16px;
+    }
+    .email-conatiner {
+        display: flex;
+        flex-direction: column;
+    }
+    .email-conatiner input {
+        width: 53vw;
+        outline: none;
+        height: 4vh;
+        padding: 0.5rem 3rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px 0px 0px 5px;
+        border-bottom: 4px solid gold;
+    }
+    .email-button {
+        width: 102px;
+        margin-top: 6px;
+    }
+    .email-button p {
+        font-size: 1rem;
+    }
+    .top-item::before {
+        height: 84%;
+    }
+    .top-item::after {
+        height: 84%;
+    }
+    .card-text h1 {
+        font-size: 2rem;
+        margin: .75em 0 .25em;
+    }
+    .card-text p {
+        font-size: 1.25rem;
+    }
+    .cards-layout {
+        display: flex;
+        flex-direction: column;
+    }
+    .tv-video video {
+        width: 12.9rem;
+        height: 6.5rem;
+        object-fit: cover;
+    }
+    /* card 2 phine image */
+    .download-container {
+        width: 17.5rem;
+        margin: -6.8rem 0 0 0rem;
+        padding: -0.1rem 1.2rem;
+    }
+    /* card 3 video width and height set */
+    .tv-video-card-3 video {
+        width: 8.9rem;
+        height: 6.5rem;
+        margin-bottom: 3rem;
+        object-fit: cover;
+    }
+    /* card 4 video width and height set */
+    .child-image {
+        width: 50vh;
+    }
+    .main-heading {
+        font-size: 2rem;
+        margin: 1.5rem 0;
+    }
+    .question-title h1 {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .lists {
+        display: flex;
+        margin: 2rem 0;
+        flex-direction: column;
+    }
+    .card-text h1 {
+        margin: .75em 0 0em;
+    }
+    .card-text p {
+        margin: .75em 0 0em;
+    }

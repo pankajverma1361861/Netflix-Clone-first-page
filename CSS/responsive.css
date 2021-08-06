@@ -1,0 +1,250 @@
+@media screen,
+(max-width: 1700px) {
+    .top-item::before {
+        height: 32.8em;
+    }
+    .top-item::after {
+        height: 32.8em;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .top-item::before {
+        height: 36.5em;
+    }
+    .top-item::after {
+        height: 36.5em;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .top-item::before {
+        height: 40em;
+    }
+    .top-item::after {
+        height: 40em;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .btn {
+        margin-left: 29rem;
+    }
+    .tv-video-card-3 video {
+        width: 18.9rem;
+        height: 9.5rem;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .top-item::before {
+        height: 43.5em;
+    }
+    .top-item::after {
+        height: 43.5em;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .btn {
+        margin-left: 29rem;
+    }
+    .tv-video-card-3 video {
+        width: 14.9rem;
+        height: 4.5rem;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .top-item::before {
+        height: 36.5em;
+    }
+    .top-item::after {
+        height: 36.5em;
+    }
+    .cards-layout {
+        grid-template-columns: none;
+    }
+    .main-card h1 {
+        margin: 0px 8rem;
+        text-align: center;
+    }
+    .btn {
+        margin-left: 19rem;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .top-item::before {
+        height: 45rem;
+    }
+    .top-item::after {
+        height: 45rem;
+    }
+    .btn {
+        margin-left: 15rem;
+    }
+    footer {
+        background: black;
+        color: #6E7575;
+        padding: 2rem 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .top-item::before {
+        height: 43.6rem;
+    }
+    .top-item::after {
+        height: 43.6rem;
+    }
+    .main-card h1 {
+        margin: 0px 0rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .top-item::before {
+        height: 37.8rem;
+    }
+    .top-item::after {
+        height: 37.8rem;
+    }
+    .card-text h1 {
+        margin: 2em 0 0em;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .top-item {
+        background-color: black;
+    }
+    .drop-down-container {
+        padding: 0;
+    }
+    .logo img {
+        width: 4.375rem;
+        height: 1.25rem;
+    }
+    .navigation-bar {
+        margin: 1rem 0px;
+    }
+    .btn {
+        margin-left: 0rem;
+    }
+    .sign {
+        margin-left: 5px
+    }
+    .child-image {
+        width: 60vh;
+    }
+    #phone-image {
+        width: 95%;
+        margin-left: -2rem;
+    }
+    .lists {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:523px) {
+    .top-item {
+        background-color: black;
+    }
+    .logo {
+        /* margin-left: 2rem; */
+        margin-right: 1rem;
+    }
+    .logo img {
+        width: 4.375rem;
+        height: 1.25rem;
+    }
+    .navigation-bar {
+        margin: 1rem 0px;
+    }
+    .btn {
+        margin-left: 0rem;
+    }
+    .sign {
+        margin-left: 2px
+    }
+    ;
+    .main-card h1 {
+        font-size: 1.5rem;
+    }
+    #main-para {
+        font-size: 0.8rem;
+    }
+    .main-card h3 {
+        font-size: 16px;
+    }
+    .email-conatiner input {
+        font-size: 1rem;
+        width: 33vw;
+    }
+    .email-button p {
+        font-size: 1rem;
+    }
+    .top-item::before {
+        height: 84%;
+    }
+    .top-item::after {
+        height: 84%;
+    }
+    .card-text h1 {
+        font-size: 2rem;
+    }
+    .card-text p {
+        font-size: 1.25rem;
+    }
+    .tv-video video {
+        width: 12.9rem;
+        height: 6.5rem;
+        object-fit: cover;
+    }
+    /* card 2 phine image */
+    #phone-image {
+        width: 95%;
+        margin-left: 0rem;
+    }
+    .download-container {
+        width: 15.5rem;
+        margin: -4.8rem 0 0 0rem;
+    }
+    /* card 3 video width and height set */
+    .tv-video-card-3 video {
+        width: 8.9rem;
+        height: 6.5rem;
+        margin-bottom: 3rem;
+        object-fit: cover;
+    }
+    /* card 4 video width and height set */
+    .child-image {
+        width: 50vh;
+    }
+    .main-heading {
+        font-size: 2rem;
+        margin: 1.5rem 0;
+    }
+    .question-title h1 {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .lists {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .card-text h1 {
+        margin: .75em 0 0em;
+    }
+    .card-text p {
+        margin: .75em 0 0em;
+    }
+    .drop-down-container {
+        padding: 0;
+    }
+}
