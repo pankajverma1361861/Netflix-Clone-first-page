@@ -156,43 +156,6 @@ body {
 }
 
 
-/**/
-
-
-/* input {
-    width: 39vw;
-    height: 6vh;
-    font-size: 1.5rem;
-    margin-left: -5rem;
-    padding: .3rem 1rem;
-    outline: none;
-}
-
-form button {
-    outline: none;
-    border: none;
-    height: 2rem;
-    padding: 0.7rem 2rem 2.29rem 2rem;
-    background-color: red;
-    margin-left: -0.6rem;
-}
-
-form button span {
-    margin-bottom: 2px;
-    font-size: large;
-    color: white;
-}
-
-.email-box span::after {
-    content: "";
-    display: inline-block;
-    width: 10px;
-    height: 3.6vh;
-    background: url("/Image/img/seta.svg") no-repeat;
-    margin-left: 20px;
-} */
-
-
 /* Card layouts content border buttom */
 
 .top-item {
@@ -290,8 +253,9 @@ form button span {
     margin-bottom: 5px;
 }
 
-.item span {
+#download {
     color: blue;
+    margin-top: 5px;
 }
 
 
